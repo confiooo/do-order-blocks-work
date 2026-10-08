@@ -1,5 +1,7 @@
 # do-order-blocks-work
 
+![Lines of Python](https://img.shields.io/badge/lines_of_Python-23k-blue)
+
 **Do order blocks predict where crypto prices go next?** This repository tests that
 question on two years of 15-minute Binance data for 76 altcoins, with leakage audits,
 matched random controls, realistic trading costs and a trial ledger that counts every
