@@ -34,7 +34,10 @@ whose code is kept separately in [`experiments/`](experiments/README.md).
 The one real effect: zones mark slightly *more volatile* moments than matched candles. It
 is small, it is not directional, and nothing here turns it into a profitable trade.
 
-![zones vs matched controls](results/zone_vs_matched_control.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="results/zone_vs_matched_control-dark.png">
+  <img alt="Zones vs matched control bars: no directional difference, slightly higher volatility" src="results/zone_vs_matched_control.png">
+</picture>
 
 ## What is proven and what is only observed
 
