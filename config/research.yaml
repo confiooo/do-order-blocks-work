@@ -1,0 +1,53 @@
+# Research configuration. These are the values that produced the published results;
+# they restate the defaults in src/hawk_research/config.py (a test fails if the two drift).
+# Override for one run with `--set section.key=value` or `--config my.yaml`.
+
+replay:            # round-1 replay geometry, inherited from the live collector
+  live_window: 400
+  lookback_ratio: 0.15
+  warmup_bars: 400
+  btc_range_bars: 16
+
+detector:          # round-1 thresholds: the live bot's hand-loosened settings, not fitted to this data (docs/PROVENANCE.md)
+  strength_threshold: 1.35
+  wick_to_body_ratio_min: 1.2
+  min_distance_from_high_low: 0.5
+
+live_gates:        # live alert gates, reproduced as flags on replayed zones
+  btc_volatility_threshold: 0.045
+  min_volume_ratio: 1.8
+  max_distance_to_price: 0.45
+  min_signal_interval_minutes: 15
+
+smc:               # textbook order-block detector (round 2); fixed rules, never tuned
+  fractal_bars: 3
+  max_ob_age_bars: 32
+  max_ob_search_bars: 10
+  volume_lookback: 60
+
+labels:
+  return_horizons: {"15m": 1, "1h": 4, "4h": 16, "8h": 32, "24h": 96, "48h": 192}
+  barrier_levels: [0.005, 0.01, 0.015, 0.02, 0.03]
+  barrier_horizons: {"1h": 4, "4h": 16, "8h": 32, "24h": 96, "48h": 192}
+  forward_vol_horizons: {"4h": 16, "24h": 96, "48h": 192}
+  retest_timeout_hours: 24
+  mfe_mae_horizons_hours: [1, 4, 8, 24]
+
+evaluation:        # walk-forward harness and holdout (s7-s12); strategy grids stay in stage code
+  holdout_fraction: 0.2
+  bootstrap_samples: 600     # s8, s10, s12; s7, s9 and s11 use their own --bootstrap-samples default (400)
+  max_concurrent: 5
+  train_days: 90
+  test_days: 30
+  step_days: 30
+  embargo_hours: 24
+  max_outcome_hours: 48
+  bootstrap_block_hours: 24
+
+seeds:
+  harness: 7                 # walk-forward bootstrap inside the evaluation harness
+  matched_controls: 3        # s8
+  strategy_bootstrap: 11     # cross-sectional CIs in s10, s12
+  leakage_audit: 11          # s6 (label truncation uses seed + 1)
+  harness_check: 17          # s7
+  location_control: 3        # s9

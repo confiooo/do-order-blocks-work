@@ -1,0 +1,14 @@
+{
+  "round1_zones": 6879,
+  "round1_bullish": 3453,
+  "zone_dataset_rows": 6879,
+  "zone_dataset_retested": 5971,
+  "leakage_audit_passed": true,
+  "round1_direction_4h_gross": 0.0005823047,
+  "round1_folds": 2,
+  "bearish_strategies": 12,
+  "smc_zones": 3848,
+  "smc_with_fvg": 1567,
+  "smc_leakage_audit_passed": true,
+  "smc_retest_net_mean": 0.0060780595
+}

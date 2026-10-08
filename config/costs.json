@@ -1,0 +1,154 @@
+{
+  "_source": "docs/archive/evidence_context_costs.md section 5.6",
+  "_retrieved": "2026-09-17",
+  "_note": "Costs are in basis points of notional. Round-trip figures already include both legs. Re-verify fee schedules against live account trade history before trusting any net result.",
+  "spread_ladder_bps": {
+    "_key": "universe_rank by quote volume; quoted spread S, round-trip taker spread cost equals S",
+    "_calibration": "Override per symbol with Abdi-Ranaldo estimates from trailing 15m OHLCV, excluding signal bars.",
+    "1-10": 4,
+    "11-25": 8,
+    "26-45": 16,
+    "46-65": 28,
+    "66-80": 45
+  },
+  "slippage": {
+    "_formula": "slippage_bps = 0.25 * S(rank) * time_of_day_mult * stress_mult",
+    "base_fraction_of_spread": 0.25,
+    "time_of_day_mult": {
+      "us_eu_overlap": 1.0,
+      "asian_evening_early_utc": 1.3,
+      "weekend": 1.5
+    },
+    "stress_mult": 3.0,
+    "_stress_trigger": "BTC 15m realized range above its trailing 99th percentile",
+    "tick_rounding_bps": 1,
+    "_tick_note": "Add for symbols whose tick size exceeds 1 bp of price (common among low-priced altcoins).",
+    "_impact_note": "At ~$40 notional market impact is negligible. Do NOT model a square-root impact term."
+  },
+  "venues": {
+    "mexc_perp_api": {
+      "_note": "MEXC bills API futures trades at 4/6 bps, overriding the 0-1 bp headline and promotional rates. Non-discountable.",
+      "maker_fee_bps": 4.0,
+      "taker_fee_bps": 6.0,
+      "funding_bps_per_settlement": 1.0,
+      "funding_bps_per_settlement_stress": 5.0,
+      "_funding_note": "Signed against longs. Count actual settlements crossed per zone from the symbol's true funding interval; do not assume 8h across the universe.",
+      "round_trip_bps": {
+        "taker_taker_rank_1_10": 19,
+        "taker_taker_rank_26_45": 34,
+        "taker_taker_rank_66_80": 70,
+        "maker_in_taker_out_rank_26_45": 22,
+        "maker_maker_rank_26_45": 10
+      }
+    },
+    "binance_spot": {
+      "maker_fee_bps": 10.0,
+      "taker_fee_bps": 10.0,
+      "maker_fee_bps_bnb": 7.5,
+      "taker_fee_bps_bnb": 7.5,
+      "funding_bps_per_settlement": 0.0,
+      "_leverage_note": "Spot only. The 5x paper config is not representable here.",
+      "round_trip_bps": {
+        "taker_taker_rank_26_45_no_bnb": 40,
+        "taker_taker_rank_26_45_bnb": 35,
+        "maker_in_taker_out_rank_26_45_bnb": 25
+      }
+    },
+    "binance_usd_m": {
+      "_note": "Family B venue only. Regular-user USD-M schedule. The MEXC row and base_case are not used for this book. A spot-plus-perp hedge also pays binance_spot on the spot leg. Funding is not a flat placeholder: charge the historical funding_rate series.",
+      "_source": "https://www.binance.com/en/support/faq/detail/360033544231",
+      "_retrieved": "2026-09-25",
+      "_example": "The FAQ states a Regular User maker fee is 0.02% and taker fee is 0.05%, charged on position value.",
+      "maker_fee_bps": 2.0,
+      "taker_fee_bps": 5.0,
+      "maker_fee_bps_bnb": 1.8,
+      "taker_fee_bps_bnb": 4.5,
+      "_bnb_note": "10% discount only when BNB is in the USD-M futures wallet. Otherwise the undiscounted rate applies.",
+      "funding_bps_per_settlement": null,
+      "round_trip_bps": {
+        "taker_taker_perp_leg_only": 10.0,
+        "maker_maker_perp_leg_only": 4.0
+      }
+    }
+  },
+  "break_even_win_rate": {
+    "_note": "Symmetric targets unless R:R stated. Target/stop in bps.",
+    "mexc_taker_taker_1pct": 0.67,
+    "mexc_maker_entry_1pct": 0.61,
+    "mexc_maker_entry_2to1": 0.48,
+    "mexc_taker_taker_2to1": 0.56,
+    "mexc_illiquid_taker_taker_1pct": 0.85,
+    "binance_spot_taker_taker_1pct": 0.7
+  },
+  "base_case": {
+    "venue": "mexc_perp_api",
+    "execution": "taker_taker",
+    "rank_band": "26-45",
+    "round_trip_bps": 34,
+    "min_gross_edge_bps": 34
+  },
+  "result_scenarios": {
+    "_note": "Which cost values produced each published result. Several MEXC taker values existed in the original code; none was silently chosen. Each result keeps the value it was produced with, and the alternative is an explicit, named scenario.",
+    "round1_and_smc": {
+      "used_by": [
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "s8_smc",
+        "s12"
+      ],
+      "models": "hawk_research.evaluation.costs.CostModel named constructors",
+      "mexc_futures_taker": {
+        "taker_fee_per_side": 0.0004,
+        "slippage_bps_base_per_side": 3.0,
+        "slippage_illiquidity_coef": 1.0,
+        "round_trip_before_illiquidity_bps": 14.0
+      },
+      "binance_spot_taker": {
+        "taker_fee_per_side": 0.001,
+        "slippage_bps_base_per_side": 2.0
+      },
+      "evidence": "reports/null_baselines.json -> cost_models (taker_fee 0.0004, cost_round_trip 0.0014)",
+      "alternative_scenario": "CostModel.mexc_futures_taker_api(): 6 bps per side, the MEXC API rate in venues.mexc_perp_api. Not used by any published round-1/SMC number. Fees are linear, so it lowers every MEXC net mean by exactly 4 bps per round trip.",
+      "doc_correction": "docs/archive/round1_findings.md said 'MEXC futures taker 0.02%/side'; the code that produced its numbers used 0.04%/side (plus 3 bps slippage per side). An erratum is marked in that file."
+    },
+    "family_a": {
+      "used_by": [
+        "s1s5"
+      ],
+      "source": "src/hawk_research/studies/family_a/simulation.py (round_trip_cost_bps): maker-in 4 bps + taker-out 6 bps (venues.mexc_perp_api) + quoted spread S by rank (spread_ladder_bps) + 0.25*S*time-of-day slippage + 1 bp funding per settlement crossed + 1 bp tick when price < 1"
+    },
+    "zone_trades": {
+      "used_by": [
+        "zt_harvest",
+        "zt_width",
+        "zt_symsl",
+        "zt_gainbuf",
+        "zt_oco",
+        "zt_breakout"
+      ],
+      "taker_fee_per_side": 0.0006,
+      "source": "venues.mexc_perp_api.taker_fee_bps (6 bps), hardcoded as TAKER_FEE in each script"
+    },
+    "daily_fade": {
+      "used_by": [
+        "df_study",
+        "df_zone_trade"
+      ],
+      "round_trip": 0.0024,
+      "source": "Binance spot taker 10 bps per side + 4 bps top-of-book spread (spread_ladder_bps 1-10)"
+    },
+    "market_neutral": {
+      "used_by": [
+        "mn_rv_phase1",
+        "mn_tier2",
+        "mn_coint",
+        "mn_rerun_rolling"
+      ],
+      "source": "experiments/market_neutral/backtest/pair_costs.py: Binance spot taker 10 bps on both legs + spread S by rank + 0.25*S slippage; funding 0 (spot legs)",
+      "family_b": "experiments/market_neutral/funding_basis/costs.py: spot leg 10 bps taker, perp leg 5 bps taker (venues.binance_usd_m), spread ladder on both legs, historical funding credited to the short"
+    }
+  }
+}

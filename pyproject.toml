@@ -1,0 +1,104 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "do-order-blocks-work"
+version = "1.0.0"
+description = "Do order blocks predict crypto price direction? A leakage-audited backtest against matched random candles."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "numpy>=2.0,<3",
+    "pandas>=2.2,<4",
+    "scipy>=1.13,<2",
+    "statsmodels>=0.14.2,<0.16",
+    "pyarrow>=16,<26",
+    "pyyaml>=6.0.1,<7",
+    "requests>=2.31,<3",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8,<4"]
+dev = [
+    "pytest>=8,<10",
+    "pytest-cov>=7,<8",
+    "ruff>=0.6,<1",
+    "mypy>=1.10,<2",
+    "types-PyYAML>=6",
+    "types-requests>=2.31",
+    "matplotlib>=3.8,<4",
+]
+
+[project.scripts]
+hawk-research = "hawk_research.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hawk_research"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "experiments/tests"]
+# `experiments` (the side studies) is not installed; it is imported from the repository root.
+pythonpath = ["."]
+addopts = "-ra"
+markers = [
+    "integration: runs the synthetic end-to-end pipeline (slow; excluded by `make test`)",
+]
+filterwarnings = [
+    "ignore::statsmodels.tools.sm_exceptions.ValueWarning",
+]
+
+[tool.coverage.run]
+source = ["hawk_research"]
+branch = true
+# The smoke integration test runs each stage in a subprocess (and some stages use worker
+# processes); measure those too, so the reported coverage is what the tests exercise.
+patch = ["subprocess"]
+parallel = true
+
+[tool.coverage.report]
+skip_empty = true
+show_missing = false
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+src = ["src", "tests", "."]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = [
+    "E501",   # long lines are wrapped by the formatter where it can; long string literals stay
+    "B905",   # zip(strict=) would change behaviour on the 3.11 floor for no gain here
+    "E741",   # OHLC code names the low price `l`, as in o/h/l/c
+    "UP006", "UP035", "UP045", "UP037",  # typing.Dict/List/Optional annotations kept as written in the original code
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]
+# `_shadow` closes over loop variables but is only called within the same iteration.
+"src/hawk_research/studies/family_a/simulation.py" = ["B023"]
+
+[tool.mypy]
+python_version = "3.13"  # numpy's stubs use 3.12+ syntax; CI type-checks on 3.13
+files = ["src/hawk_research"]
+ignore_missing_imports = true
+check_untyped_defs = false
+warn_unused_ignores = true
+no_implicit_optional = true
+
+# Pragmatic strictness: the library (data, detectors, features, labels, replay,
+# evaluation, stats, audit, ledger, config, CLI) is type-checked. Stage and study
+# scripts build nested report dicts of mixed types and are not; their behaviour is
+# pinned by the tests, the smoke run and the golden comparison instead. pandas-stubs
+# is not used: its strictness flags hundreds of valid DataFrame idioms.
+[[tool.mypy.overrides]]
+module = ["hawk_research.stages.*", "hawk_research.studies.*"]
+ignore_errors = true

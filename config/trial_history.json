@@ -1,0 +1,71 @@
+{
+  "_note": "Trial counts recorded in the original project's ledgers before this repository existed. A stage that deflates against its ledger adds `prior_trials` to the rows in the local ledger, so a fresh reproduction deflates against the same count the published report did. Counts were read from the original SQLite ledgers; nothing here is estimated.",
+  "sources": {
+    "operational_db": {
+      "file": "data/db/db.sqlite (the original live system's database), table experiments",
+      "rows": 134,
+      "prefixes": "s8-null-baselines 72, s8-null-baselines_smc 24, s12-smc-eval 24, s10-bearish-only 12, steps-5-9 2",
+      "ids_allocated": 178,
+      "ids_missing": "1-2, 5-22, 107-120, 169-178 (44 ids): allocated (AUTOINCREMENT) and later removed; recalled by the author as exploratory experiments, configurations not kept"
+    },
+    "research_ledger": {
+      "file": "data/research/research.sqlite, table experiments",
+      "rows": 6410,
+      "prefixes": "mn_rv_phase1 1728, mn_rv_tier2 2160, rv_cointegration_filter_v1 1728, mn_fb_phase1 792, familyA 2",
+      "ids_allocated": 8138,
+      "ids_missing": "3-1730 (1728 ids); see ledgers.mn_rv_phase1"
+    },
+    "total_rows": 6544
+  },
+  "ledgers": {
+    "s8-null-baselines": {
+      "rows": 72,
+      "sessions": [
+        "2026-09-17T15:25Z (24)",
+        "2026-09-17T15:42Z (24)",
+        "2026-09-17T15:50Z (24)"
+      ],
+      "published_report_session": 3,
+      "prior_trials": 48,
+      "note": "The same 24-configuration scan was run three times; the published null_baselines.json (n_trials=72) came from the third run, so a fresh run starts from 48 prior trials."
+    },
+    "s8-null-baselines_smc": {
+      "rows": 24,
+      "prior_trials": 0
+    },
+    "s10-bearish-only": {
+      "rows": 12,
+      "prior_trials": 0
+    },
+    "s12-smc-eval": {
+      "rows": 24,
+      "prior_trials": 0
+    },
+    "familyA": {
+      "rows": 2,
+      "prior_trials": 0
+    },
+    "mn_rv_phase1": {
+      "rows": 1728,
+      "prior_trials": 0,
+      "note": "Experiment ids 3-1730 are missing from the original research ledger (1728 ids, allocated by AUTOINCREMENT and later removed). The author recalls them as exploratory experiments trying different things, removed to save time; their configurations were not kept, so they are not counted here. Counts in this file are therefore lower bounds. The runner refuses to log into a non-empty prefix, so a reproduction counts one run."
+    },
+    "mn_rv_tier2": {
+      "rows": 2160,
+      "prior_trials": 0
+    },
+    "rv_cointegration_filter_v1": {
+      "rows": 1728,
+      "prior_trials": 0
+    },
+    "mn_fb_phase1": {
+      "rows": 792,
+      "prior_trials": 0
+    },
+    "steps-5-9": {
+      "rows": 2,
+      "prior_trials": 0,
+      "note": "Two infrastructure rows ('CLI experiment creation smoke test', 'Full read-only research report', 2026-09-04); not research trials, kept so the totals reconcile."
+    }
+  }
+}

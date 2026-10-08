@@ -1,0 +1,3331 @@
+{
+ "_note": "Bar-content checksums of the data the published results used. See hawk_research/data/manifest.py.",
+ "source": "https://data.binance.vision spot klines (monthly+daily archives), REST tail for the last days",
+ "window": {
+  "start_open_time": 1725148800000,
+  "end_open_time": 1789654500000
+ },
+ "entries": [
+  {
+   "symbol": "AAVEUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "8e014606fef4f95b89586f1a999fbd3af23df7737c1dee677dac2f5d4a365ac1",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ADAUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2266dcf6192e494977908e427276a180c3f5bfaee27e7f92c4ac5915163a9015",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "AEROUSDT",
+   "interval": "15m",
+   "rows": 5946,
+   "first_open_time": 1784304000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "69fff1eebc5ca5af60dbb6c7e1dba205fb8421b632d56c851fdbba91813a2506",
+   "checks": {
+    "rows": 5946,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 2,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ARBUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "461a29be33cd3b28126ee738e9dd277dc815eb1cd1049f62e72671d8f7a3a76c",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ARKUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "8a8bfa877c587f671e1c06931ce021040f1a401f11738f193411162081e8d2c3",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1924,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ASTERUSDT",
+   "interval": "15m",
+   "rows": 33226,
+   "first_open_time": 1759752000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "cfe0fad04ff0407d17a2ca1d07685b6a906e770531dc7d9512ff7cc8dfe767a7",
+   "checks": {
+    "rows": 33226,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 2,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "AVAUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "64bf73ca28165e7da6cade725ff9de866fbaa96168e0397f1ecda2d102190cfa",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 465,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "fd29f22a009a7241f9017eb90d1bc3f1c026b0f9e647dc0819c85f3dacc7b35c",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BCHUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a184ace6881feeeca18341de5b91dc2b2442446b7ea1d3724fbab891e23fc7ef",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BNBUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "9848a2edcc36825d419702c0a41cf996d43de99767985d28a1f83346603e35fc",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BNCBUSDT",
+   "interval": "15m",
+   "rows": 298,
+   "first_open_time": 1789387200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "324a95dac64223737d7ed16354bf481229fbb81c17531cde39065bae01ffbd64",
+   "checks": {
+    "rows": 298,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BONKUSDT",
+   "interval": "15m",
+   "rows": 52416,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1772322300000,
+   "content_sha256": "26dd80ab7fb5e79c2c0412e8c8f7ba288b0408b53e77967521c884af0bf70b13",
+   "checks": {
+    "rows": 52416,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BTCUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "0dac7f6b3d310ea044e91307281f5fdf70ca4301b39f26abbf07c5163e26119f",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "CAKEUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "75f03bacc222150f0b3cabfee39461ca94832ebb2a5e20010af8cf3b92bacea8",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "CRCLBUSDT",
+   "interval": "15m",
+   "rows": 9394,
+   "first_open_time": 1781200800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a543f6a90b4df6ec1814712cf217dd0004ac77bfd37723e10972c6bf93a83ffb",
+   "checks": {
+    "rows": 9394,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 9,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "CVCUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "ccd57cf49ba14ac28880db771a6b0923c8cdc7f69411cd9e88e8c10a9f84b556",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 611,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "DASHUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "6d128efc07e977f6c8081d673ed1863c820a28664d478c5434a80d5dd7b27ce7",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "99e5b7650b108c1d8109c148cda65542e53a7a4fc21bb32e74227d6df05f01bd",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "DOTUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "fde2446e0e75bb4ba490404946d19808806bf925acb8234a65f31c6202e0793f",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ENAUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "7a0c2ac43e7fc17f8bccca26b55508b8261715b69e7ba5526643748fd41784cf",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ETHFIUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a10d110b3ef64c94ee0251e3e506b38f2040a88a263da33c11dfc9714f58be41",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ETHUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "28d07a4ea185a8bb97e69d8bf23d1a1cd74b14dc2102f3b5d5c76bf30d5e6222",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "EURUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "7ff47153181d2bcc87cd13d39a8d2203bcf64f1ed8a48cd24f5fdc3ca327ac64",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FDUSDUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "b497aa3ec1c01019d1559f2aee68c07d7d2133e5d2a16845c0985e9e08666603",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FETUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "bc0657db63f0a261ed4615b392653853c9270ee61fdb6c94564299bf2ba90e06",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FFUSDT",
+   "interval": "15m",
+   "rows": 33892,
+   "first_open_time": 1759152600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "4b8da916853d0da20adf89e7babbf97d56b844a7a94985d7e9260c52c2a37c7f",
+   "checks": {
+    "rows": 33892,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 16,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FILUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e224408cef44f52a80862625cda85ba4b8ec290db01b08823a87bd1f023895c3",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FORMUSDT",
+   "interval": "15m",
+   "rows": 52538,
+   "first_open_time": 1742371200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "15eba1ebe6c8eacc60d4b581fcfc1ebdee8d2582619d60a631d99cbbf3228eec",
+   "checks": {
+    "rows": 52538,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 38,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HBARUSDT",
+   "interval": "15m",
+   "rows": 52416,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1772322300000,
+   "content_sha256": "ddd90b477206f6e83006d80a20e312d7cdbb9cf9c3e6e1a59ed6d5724c373e0a",
+   "checks": {
+    "rows": 52416,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HEIUSDT",
+   "interval": "15m",
+   "rows": 55802,
+   "first_open_time": 1739433600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "6753644172e4ec0fde097b8307ea3d3a7f9c12aa6635c423c22946d0a5788db2",
+   "checks": {
+    "rows": 55802,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 253,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HEMIUSDT",
+   "interval": "15m",
+   "rows": 34474,
+   "first_open_time": 1758628800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "9ba178082f12ef4395f61ca77d72e3b240818b8b8e980de73f6159c82a3a454a",
+   "checks": {
+    "rows": 34474,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 34,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HOLOUSDT",
+   "interval": "15m",
+   "rows": 35626,
+   "first_open_time": 1757592000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e94265801ff07808d2773184a078944d09754efe0cf3c40b7ed4a1656c5ea938",
+   "checks": {
+    "rows": 35626,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 98,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ICPUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "1414ae4589eeb2a446ce9ba8cbea6a0cfabe9088039301927c6878efa4e5493b",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "INJUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "ff4c6d95dd6d94745cfc09aaba019de89cafc2bf96b65cf49c368bebd61954b4",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "IOSTUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "4f1706c7db4e2d1a56a8063ac2a356bff99a2bd1ef8449cb1adff37dba5fbd62",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 414,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "KATUSDT",
+   "interval": "15m",
+   "rows": 17574,
+   "first_open_time": 1773838800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "60f15b184f5a291cc06055429589999fb52115dd61d4b06d62064d52d7e6d3f7",
+   "checks": {
+    "rows": 17574,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 73,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "LINKUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "75d18e68c8c5f43be91bdf1f54872441125719efbd2e024bd7a3af20d33a934a",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "LSKUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "936ef6564f1ad2ff781c73f58fc65ee06c006fb36712a378ed2c922af23cfc95",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 3685,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "LTCUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "b494e456b7c025c95e430ab02747fa4158d75dee0d971d7ab9b004fc51f8bec7",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "MARSCOINUSDT",
+   "interval": "15m",
+   "rows": 1254,
+   "first_open_time": 1788526800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e7c41a54301bd6e38df198eee9af6c07340b1e6e8236ebae5808a70bc55c1d19",
+   "checks": {
+    "rows": 1254,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "METUSDT",
+   "interval": "15m",
+   "rows": 29570,
+   "first_open_time": 1763042400000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c09f23d5e98fb56ebd0053b6699515164c2c3d362394906b54184943d4b72cec",
+   "checks": {
+    "rows": 29570,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 113,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "NEARUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "fdf897ad7ced8a452c8ed1e0274603bcc4560edd260dc959a5ae1d41fa79187f",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ONDOUSDT",
+   "interval": "15m",
+   "rows": 50306,
+   "first_open_time": 1744380000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d18433dc085185bc04d132af09a8980ca0d8b4e906f694e70089236bf738e87f",
+   "checks": {
+    "rows": 50306,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ONEUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "33ee63cc51e31d97be0fd85cfc30c72ec9ab92c1f9be5e5c024fb95799c29265",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 312,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PAXGUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "f0ff9a416349b809629f15ee7efc4217fa002216a94e9c1eafbe261274ab5ecd",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PEPEUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "b22c23f82cc98d01d70dbd48e8756ab33748c59c4ffdb745e2ad945c890c2077",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "POWRUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a78ebf651a1858cd23a8af9546591c07ea64d84f08be3f791c3e3a3c25796367",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1888,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PROMUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d4cfc94db4f2f875a28dc98d70906576ac99170ef78cb43b74ceb12747d07dda",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 212,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PUMPUSDT",
+   "interval": "15m",
+   "rows": 35624,
+   "first_open_time": 1757593800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "36387735023c2cab10a6cb3bccf31408775830f930aa9f97914d64c61da2d5a5",
+   "checks": {
+    "rows": 35624,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "RAYUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d2e1111014663b78c530eddb3fde8ccfc9c88a7763859b8f31bfc005871d886e",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 38,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "REZUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e8032bc5886e24c12cda3f671f47a42ccf2281b9686baebdeea4ee936c2ae386",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 137,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "RLUSDUSDT",
+   "interval": "15m",
+   "rows": 22874,
+   "first_open_time": 1769068800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "cf7fafc9444590760f21591afadbcaf6d93b671ab756d360d1d7238c91c8bcae",
+   "checks": {
+    "rows": 22874,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 53,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "RUNEUSDT",
+   "interval": "15m",
+   "rows": 52416,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1772322300000,
+   "content_sha256": "4f2239a5f135c0dabbf5d7ffa3ed201b34f433b594e71053b704e29bdd83af58",
+   "checks": {
+    "rows": 52416,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 16,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SAGAUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "702d264d4a77bb255bc73c65fbc1263efec59ef2b09d0c95faea0dc8d694e0d9",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 39,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SAHARAUSDT",
+   "interval": "15m",
+   "rows": 43018,
+   "first_open_time": 1750939200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "16d074679b9263069bf56e22efac4365c82606249563f9d6dfafa4a2bb3bd96e",
+   "checks": {
+    "rows": 43018,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 20,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SEIUSDT",
+   "interval": "15m",
+   "rows": 52416,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1772322300000,
+   "content_sha256": "72a452885e54146091b0cbe73659aa10ea31a8e300c7fc5c3151ffc68393d837",
+   "checks": {
+    "rows": 52416,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SNDKBUSDT",
+   "interval": "15m",
+   "rows": 9394,
+   "first_open_time": 1781200800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a0b0040a7d2397e63b897c2281c7feec6ed3e2fadc2bc5e436f7327669c7a957",
+   "checks": {
+    "rows": 9394,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 28,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SOLUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "bce8e0ab9553e0347951544e0a6fa56f7b2415aedadf6c549b48c0f88c0ad120",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SOPHUSDT",
+   "interval": "15m",
+   "rows": 45798,
+   "first_open_time": 1748437200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e70e0eb20e7b0217e90cf26adf639dd2de6dfb2e5405065a945a11b076d657f1",
+   "checks": {
+    "rows": 45798,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 142,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SOXLBUSDT",
+   "interval": "15m",
+   "rows": 6916,
+   "first_open_time": 1783431000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "787a2960aa5a7ba3b307de5e2b92b77428b7c23e438ade5a0b08ce2dcc573aee",
+   "checks": {
+    "rows": 6916,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 27,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SPCXBUSDT",
+   "interval": "15m",
+   "rows": 9302,
+   "first_open_time": 1781283600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e308f0e383f911bbc5137b78d6cf94939baf9a86cd38855428614ce83a1e4e22",
+   "checks": {
+    "rows": 9302,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "STEEMUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "bb38c6bbe8cc4e66c643dcb65d226a39799b57563c152be75a3a3e86661ac2b4",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 964,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SUIUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "deacc798231971df4f6a6faccea4dae47dec2fe4d6c914acc56b1ec79fe9be7b",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SYNUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "bddb0b6cf84bbb4ba1cb40ee55a93899d806c8268b7de776101902c105dd55f9",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 327,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TAOUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "437970be4ae1bf8864fa0414f2f7f70dea7e3b214c276899976ca8ae0b14d1c3",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "THEUSDT",
+   "interval": "15m",
+   "rows": 63282,
+   "first_open_time": 1732701600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "527de294dff07a6c5cea44afd68532e64d2b378df83acfa1a821a45a383e70bb",
+   "checks": {
+    "rows": 63282,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 99,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TIAUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "789b8eb6d78b359f1bf9fee251db83dde5006fe70a55841a1c0ad69374d88ec3",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TONUSDT",
+   "interval": "15m",
+   "rows": 64044,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1782787500000,
+   "content_sha256": "6188e7d2ae87cc060a487d2edf432f196ae1f8dd704fbfba0de38388e1482282",
+   "checks": {
+    "rows": 64044,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TRUMPUSDT",
+   "interval": "15m",
+   "rows": 58200,
+   "first_open_time": 1737275400000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c5f125d1ffe3a2b980866a21c813af0433cb3123061f5e0939c549bec15c802f",
+   "checks": {
+    "rows": 58200,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TRXUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e4b4e3a50f89a0151946aa0e5084e74f9d947ff527e73858afe0894131f1ed9d",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "UNIUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "40209304cf34f5b0e60e800b21920612ba6f10c0b005a0573c33c681cdc20397",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "USD1USDT",
+   "interval": "15m",
+   "rows": 46378,
+   "first_open_time": 1747915200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2d7516f1a1e89b3653837fd709e37f6f7228c72281ccd27d214d8655e11104d9",
+   "checks": {
+    "rows": 46378,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 7,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "USDCUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a1ee6a47ca3c28c53e96305fc7587224b3af8dfd61dbc81aaa685508de81c91b",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "UUSDT",
+   "interval": "15m",
+   "rows": 23738,
+   "first_open_time": 1768291200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2d8b1f2145ba73db3f17a08178069a94c6adb0f0ca765ffaea42669e386d51d3",
+   "checks": {
+    "rows": 23738,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 53,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "VTHOUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "42cf16d7c8158df85c63e77cec041abb260ee6c46b004abd501422b4a45de47a",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 244,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "WIFUSDT",
+   "interval": "15m",
+   "rows": 52416,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1772322300000,
+   "content_sha256": "518be06faf4617d29cbccb354f3cebd3c53a7376b5edaab6b1ca7332b88f14ba",
+   "checks": {
+    "rows": 52416,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "WLDUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a5a67c966fe002badb2ede77786963069253d14fc3b462b4f126858acad0a31a",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "WLFIUSDT",
+   "interval": "15m",
+   "rows": 36582,
+   "first_open_time": 1756731600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "0048bf954b292ebae22f947ce1e65cea8856d4b4b8033a77f2cf76538ddbb8b7",
+   "checks": {
+    "rows": 36582,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XAUTUSDT",
+   "interval": "15m",
+   "rows": 16802,
+   "first_open_time": 1774533600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "0eadbe0b3e99031a1b06e735b7d3715a85f306cb0fd1976da3b8620aedfc15b5",
+   "checks": {
+    "rows": 16802,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XLMUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d11ed440903bed62d40231857a35708870ea8ca37f2f692dc65c4789dced6cc6",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XPLUSDT",
+   "interval": "15m",
+   "rows": 34278,
+   "first_open_time": 1758805200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "dd2ef5fd64807cdd02aad7f9d58fb788039568d67dcc6c4a06d4b74e8201abb4",
+   "checks": {
+    "rows": 34278,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XRPUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "5426a544c386d98341fc26582ca98edbe10d400098e45caacb6a4cf573447749",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ZECUSDT",
+   "interval": "15m",
+   "rows": 71674,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "fdd3f1dcb07d3a3202835ecf2deb263614f2f2e27f922e4b82b1ea5c7c502f79",
+   "checks": {
+    "rows": 71674,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ZKCUSDT",
+   "interval": "15m",
+   "rows": 35234,
+   "first_open_time": 1757944800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "f5db9aed559dffe5b243090d79486297ea5e31908fb63249041280cd32f1b09e",
+   "checks": {
+    "rows": 35234,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 527,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "\u725b\u6765USDT",
+   "interval": "15m",
+   "rows": 768,
+   "first_open_time": 1788964200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "b0302e4aaf436f3dd93aa0ebae4b2b4a956175adac2af0d14f7b11a4590d221e",
+   "checks": {
+    "rows": 768,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BTCUSDT",
+   "interval": "1h",
+   "rows": 17919,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789653600000,
+   "content_sha256": "9fd39d0fdf8906a6fba4adb9e38ac87d0e0728821a3a4579e9e69df4fb04a915",
+   "checks": {
+    "rows": 17919,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   },
+   "note": "Not used by any stage (downloaded by the original project for the live system's BTC stability check). Its last bar (2026-09-17 14:00 UTC) was still forming when it was downloaded, so a download today returns the completed bar and this checksum does not match. Fetched only with `download --btc-1h`."
+  },
+  {
+   "symbol": "AAVEUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "876a670db1319d20677d5ed523f4eacb9a08c5dcece4371258a63fe04de9759b",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1744,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ADAUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "56131594828bbcc9fc9b6f00a3a23c07534f60624ba38cb7a553f71aab86538c",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 806,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "AEROUSDT",
+   "interval": "1m",
+   "rows": 89176,
+   "first_open_time": 1784304000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "641a845259e477487d84a524bb5174bfaf0d439022968a31d5c7b8648ebd1e36",
+   "checks": {
+    "rows": 89176,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 11924,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ARBUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "3f1898e5eaf6d8580ba118da3ce7a447aae2ad2c55fd57be2915fc265c833d96",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 19033,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ARKUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "77c46b0be0647b2536d969a1d397e94beb67a47f93bd76aa9938e8be3bb3670c",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 426628,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ASTERUSDT",
+   "interval": "1m",
+   "rows": 498376,
+   "first_open_time": 1759752000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "86dc628374ca255ee5b5bd8e050ce9aadfc3cbbdbfef7b5c3a6ff8a424a4cb3b",
+   "checks": {
+    "rows": 498376,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 54366,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "AVAUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2999cac33563e618b3420ff0a2e0a73846964b9f4ec1437e57a3f44e66714187",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 289047,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "826d443e0a88cd228545dadae0c736c4a8e68b357dd28a85c27b574429350c2e",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 5284,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BCHUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "9cc36cf0d0ff2c058c2509ca28fdb89e9d07317aca0338ce42f5a2c577126c7d",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 16128,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BNBUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "42a39663bf3a4b3d1a2d12ad360c50c3175c6fddd8c412b8a1feba060364857b",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BNCBUSDT",
+   "interval": "1m",
+   "rows": 4456,
+   "first_open_time": 1789387200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d001ac0bbf01245055061f49c3defe74d73b12b74a72eb004d8ed08ebb2468f2",
+   "checks": {
+    "rows": 4456,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1259,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "BTCUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "23c7fd1eab60dfe45804e728894b7e51607017c4b99ec622eabb8a72ee431d74",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "CAKEUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "5420e750111e5284863b7ba762fe702ac5f41a9dff25a93672b2259a1c53df69",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 46865,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "CRCLBUSDT",
+   "interval": "1m",
+   "rows": 140896,
+   "first_open_time": 1781200800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "87d6c872deea5438363f30562449f2f6e578f78d4a8db68ffbb520007792c6de",
+   "checks": {
+    "rows": 140896,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 32404,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "CVCUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "01b099079f0b1c877fc86167a538bec2348975e4af85e971bd1975b97fc402d6",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 351500,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "DASHUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "18bf613e8d6b9cb5886330ac5985e3ebdc8aaa5e931492f6d6add8b271df0219",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 93977,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "f0cb9e156b9b94fe96cbf631938e382dbce547d10356bbe8e437b6a1b1211edd",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 12,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "DOTUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "56f28bd4edebd09df285d01a8558a4ca4ff94de1ce9136382193d4627827bb43",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 17506,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ENAUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "37214b12ead6c7e5f61652e5dcf7db99d8c45e72c1df45f8535af916a6c84e8a",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 10914,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ETHFIUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "49da955681cf2610d0431850916d52bb60604ae14237b93cf6cdc2ca15b7b214",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 83495,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ETHUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "79761c0b9a578771c3ec8850601d63d9165b75b348918ef644ed71fcfef67cd8",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "EURUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a7d549935fc669d425f386d272006b80a000a05ff719766b89e6a4b18df42d2b",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 879,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FDUSDUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e6204603e141284b3d4aa47673cd5c28692d2f16e44a0b4a2c45fac927f9bc2b",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 14954,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FETUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "12a11ae4a78cb112d8208a854ec7d59a28001642e3c10f183fc0d66c5ec78d1f",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 13188,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FFUSDT",
+   "interval": "1m",
+   "rows": 508366,
+   "first_open_time": 1759152600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "855bd9b2856b05772472ab2cb42f32efc8b9c495c4541d47e644be9d0ac81bcd",
+   "checks": {
+    "rows": 508366,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 57011,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FILUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "9bbe6728ae87cc36d857d63729126086789947e3a376764415832a0e6d645b05",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 27697,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "FORMUSDT",
+   "interval": "1m",
+   "rows": 788056,
+   "first_open_time": 1742371200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "85ec78705b7466f7f0f43b2442bb0b9af0bba00d96bf312bece8d49743343cbd",
+   "checks": {
+    "rows": 788056,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 109886,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HEIUSDT",
+   "interval": "1m",
+   "rows": 837016,
+   "first_open_time": 1739433600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "3664737c1444508dea62057113037b2b94c386ad91e0c92c69584eec40c903f5",
+   "checks": {
+    "rows": 837016,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 210364,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HEMIUSDT",
+   "interval": "1m",
+   "rows": 517096,
+   "first_open_time": 1758628800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2d41ce6e1d9cfe8e33e654ec3ef8aa0f8ef4adb1c38a48542e21a3cd22ee2936",
+   "checks": {
+    "rows": 517096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 129074,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "HOLOUSDT",
+   "interval": "1m",
+   "rows": 534376,
+   "first_open_time": 1757592000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "aeab64c659fb55b02d7293fffe16525b0caefa4e241acb96fa1a7279ef13bf16",
+   "checks": {
+    "rows": 534376,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 158294,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ICPUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c77e72a4742276e3173e6b441f435c473b68f55b362d6681301ef977d8d74ced",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 17996,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "INJUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "0d4f5b949c2d0e4ce67e0f516f8acc3f3b718b6e3506c1b6ee56daa4ec1aca29",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 24508,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "IOSTUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "b14e8a574a0dc5f7f1d951959ab81d8403b0716aff76af867c27d0e2d4f61ba0",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 315771,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "KATUSDT",
+   "interval": "1m",
+   "rows": 263596,
+   "first_open_time": 1773838800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "656dea6d3b0caf453f32d1eee28e09dabb88ca25990e56dc303c303aa239cdae",
+   "checks": {
+    "rows": 263596,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 70435,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "LINKUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "77bf470b91ebf7dba2e80f9e4de0deed472659c5802ae4e85d9186a93399ddd3",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 3532,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "LSKUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c51cf48fd9458c3e886dbb5a19e42b6347bfce53f3b80f8383e5f039b4f8e1b3",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 475869,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "LTCUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "01b5606bf273fdf9492c77786554b33f73f4252ec8ab413284d53070442552fd",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 3,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "MARSCOINUSDT",
+   "interval": "1m",
+   "rows": 18796,
+   "first_open_time": 1788526800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d60a541068c0c9d0a98aeac21cd3cf0539a1461d2a12a609f38837bf4a27bdd9",
+   "checks": {
+    "rows": 18796,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 2,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "METUSDT",
+   "interval": "1m",
+   "rows": 443536,
+   "first_open_time": 1763042400000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d2c6e764971f678e3fc02348abcb182c076dcdadb3c57cbfc3fbde79c4c2d287",
+   "checks": {
+    "rows": 443536,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 141206,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "NEARUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "7b5b278dad3518136a92a82c4058a98a1f68a4686f913d9998ff36266262d21b",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 5469,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ONDOUSDT",
+   "interval": "1m",
+   "rows": 754576,
+   "first_open_time": 1744380000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "4f904534f5d14aa300a8d22852a774dc55ad16281824b868749e4da1aab6c8cf",
+   "checks": {
+    "rows": 754576,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 4581,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ONEUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "38ec33f708b0eca2fcd02ee07095f780dc76b6cfae984a72b1c66d582c99d450",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 279301,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PAXGUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d0fd9f13fb0db46caa879dd1c6f940f146705a580e2154a7359642d7466680ae",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 36911,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PEPEUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "65db556283266332a475cdcdb33b53446d2232aef18565502e5bc42c97dafd5d",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 2413,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "POWRUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "4280a210d35170cc2143ba25acbec67f38c58c9eda737b67c6e31ed71c08335b",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 508045,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PROMUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "40a8c0d99673a8f47ef298aaf60edc921254d6c77209b0c8c785ad4d834054ca",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 157106,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "PUMPUSDT",
+   "interval": "1m",
+   "rows": 534346,
+   "first_open_time": 1757593800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2b0f09f3cf34e25250dc051ac9932728ccdb4cac0c71ff3d0e63c22f597dff48",
+   "checks": {
+    "rows": 534346,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 9228,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "RAYUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "3f75738139c858817bef98d21f801fc9cff4e36c3defcb4631d7e30612ef8c5e",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 123771,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "REZUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "45fee5ed17cb36ea2d14d4524d75354581bffb130d6c4407ef8422bd81266a5a",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 190104,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "RLUSDUSDT",
+   "interval": "1m",
+   "rows": 343096,
+   "first_open_time": 1769068800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "806248522c580f6a9f0db5730c19534677bfae0a508e720dfe6db510d6c6d209",
+   "checks": {
+    "rows": 343096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 109554,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SAGAUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "ac3ce27dcce04bad25f5af673de4650cd40b319c2238746e90282df103862f83",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 112621,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SAHARAUSDT",
+   "interval": "1m",
+   "rows": 645256,
+   "first_open_time": 1750939200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "3f89506d0d064412f5047d9d1518c6853d9221728c074499caf24f020906952b",
+   "checks": {
+    "rows": 645256,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 101112,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SNDKBUSDT",
+   "interval": "1m",
+   "rows": 140896,
+   "first_open_time": 1781200800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "0d31745deeac04641d01cb7ec7cc59bcaadd4497c1257ce52dc1de85489907ec",
+   "checks": {
+    "rows": 140896,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 20285,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SOLUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "5d61270695e3a6735c39398c1e33610a995d5ac6733a695933f616d50e4e4856",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SOPHUSDT",
+   "interval": "1m",
+   "rows": 686956,
+   "first_open_time": 1748437200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "a3083077501d9e7f73bd79758ded7040b5a78579266040d4d49de585040ed26c",
+   "checks": {
+    "rows": 686956,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 216380,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SOXLBUSDT",
+   "interval": "1m",
+   "rows": 103726,
+   "first_open_time": 1783431000000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "edb6873d5c5c604f61ba0eec9752157823df4fe6431312dcc0c2af2ad0f8871c",
+   "checks": {
+    "rows": 103726,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 23593,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SPCXBUSDT",
+   "interval": "1m",
+   "rows": 139516,
+   "first_open_time": 1781283600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "145178c1eaa44134abbc2ae1d1017c42bd98ab4ffbc46932726cddcf2c1a805e",
+   "checks": {
+    "rows": 139516,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 2278,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "STEEMUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "065c3969f0220fde5b84eb93e04b55007601cf19464cebcccaddfd3a6994501a",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 409547,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SUIUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "900743e629bcbd4f2b9cb7622b3af1f6b526ae1d8addcea30cf5fce2525c71bc",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 202,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "SYNUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "0ddfb7f5178d6061bfe9c34d52cb0180226ee5ce49bd840c1497d00beea2aa92",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 276339,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TAOUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "330d8639d41f22a8e887183e9cb6dff35bd6d29cf5c27131d6bebbc84df7506a",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 3104,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "THEUSDT",
+   "interval": "1m",
+   "rows": 949216,
+   "first_open_time": 1732701600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "d24fba1bfa6b15ee0698b3cb8c218b9f0aaabceb82427d25c95b974a238266fe",
+   "checks": {
+    "rows": 949216,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 164825,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TIAUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e06e4f6b193a6b30faa1459d0a8ef0943134da5c5aa96fe2acf6314d0e7a7f5e",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 14011,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TONUSDT",
+   "interval": "1m",
+   "rows": 960660,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1782788340000,
+   "content_sha256": "240f1d9d5fb54dccf8c367fb9b6d099311d86ede398418965aa99e3e818dfe4d",
+   "checks": {
+    "rows": 960660,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 773,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TRUMPUSDT",
+   "interval": "1m",
+   "rows": 872986,
+   "first_open_time": 1737275400000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "bdf82f8c232d19a52f90bf62c9a69051001a2718d2f4bcab1069b5753c085ecb",
+   "checks": {
+    "rows": 872986,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 10177,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "TRXUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "30a242ecec14b60504c34d4c0e327dd443322f3364c336ef830137553dba8a86",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "UNIUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "f200d87ec4604b0b52fe1dd06d9e1c514cf210eadbd11ae75b41e92ff95ce585",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 5434,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "USD1USDT",
+   "interval": "1m",
+   "rows": 695656,
+   "first_open_time": 1747915200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "52267d6d46e4c0203d3e52ccd0680449307533a4cc61e84897da03063c64bfb8",
+   "checks": {
+    "rows": 695656,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 61323,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "USDCUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "1374ec502f90063865f949f6e9c9041e0a48cc6868e8ff40c0bd00e112698522",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "UUSDT",
+   "interval": "1m",
+   "rows": 356056,
+   "first_open_time": 1768291200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c1ed460f8cd805b9f801a36d8849a46f224d66adf1fd0332969dca3181dbff30",
+   "checks": {
+    "rows": 356056,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 41415,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "VTHOUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "e1a87c8100581f3eeba420de58f29ab144e40051495618dde528e527046853af",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 245283,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "WLDUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "6f95fa8b5dcc39945a41f58753b70964adeef9813de2a6f9d65f04cfcd29d4b0",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 677,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "WLFIUSDT",
+   "interval": "1m",
+   "rows": 548716,
+   "first_open_time": 1756731600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "9e9970c0d5ad77c211459edbe66e870fe14bef013196345af15aca3f34a4ffd7",
+   "checks": {
+    "rows": 548716,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 45702,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XAUTUSDT",
+   "interval": "1m",
+   "rows": 252016,
+   "first_open_time": 1774533600000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "2a60d10c1add826f0b5550fe90ed92d052dc315f7aaaa1a04c4092b59e7778ba",
+   "checks": {
+    "rows": 252016,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 10671,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XLMUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c92fbba256fe9216411d1fb850a44f962101690b926e61009c672dd833e26baf",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 11138,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XPLUSDT",
+   "interval": "1m",
+   "rows": 514156,
+   "first_open_time": 1758805200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "4954f086f9bd4d38af3aa23ee8dc58d4b503e7d32db67e1d06bd1728f4ceacdf",
+   "checks": {
+    "rows": 514156,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 7610,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "XRPUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "c9f840a451ad1c24a64a6e2fbb37a11a527733a4205e130ff152fdd42b27d4d0",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 0,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ZECUSDT",
+   "interval": "1m",
+   "rows": 1075096,
+   "first_open_time": 1725148800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "5e44f67d647f0a5b0e3356b615b9d24dc6df327d2d49ff65d9ad71f3dff8ebb1",
+   "checks": {
+    "rows": 1075096,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 70755,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "ZKCUSDT",
+   "interval": "1m",
+   "rows": 528496,
+   "first_open_time": 1757944800000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "74c92f0ab6c39451b1263fc56aa0b0332e2b076fc687199e8992eee8f8b669e4",
+   "checks": {
+    "rows": 528496,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 204261,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  },
+  {
+   "symbol": "\u725b\u6765USDT",
+   "interval": "1m",
+   "rows": 11506,
+   "first_open_time": 1788964200000,
+   "last_open_time": 1789654500000,
+   "content_sha256": "59954a911ea0dd570ab9ee76fd60ea7396300a0453be5187a3c058535d331810",
+   "checks": {
+    "rows": 11506,
+    "duplicate_timestamps": 0,
+    "non_monotonic": 0,
+    "high_below_low": 0,
+    "non_positive_price": 0,
+    "open_close_outside_range": 0,
+    "nan_price": 0,
+    "zero_volume": 1,
+    "gaps": 0,
+    "missing_bars": 0
+   }
+  }
+ ]
+}
