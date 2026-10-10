@@ -37,7 +37,13 @@ tied to its content.
 
 ## AI assistance
 
-AI was used as a tool in building this project.
+I designed this project and made its decisions: the research question, the methodology, which
+safeguards to build and why, and how to read the results. AI coding tools helped me write parts
+of the code, mainly the validation machinery (the leakage audit, matched random controls,
+walk-forward testing, and the trial ledger with the deflated Sharpe ratio). I reviewed and
+tested everything they produced, with hand-checked unit tests, a planted-edge positive control,
+a random-trade negative control, and a full re-run checked number by number against the
+original results.
 
 ## Where the detector thresholds came from
 
